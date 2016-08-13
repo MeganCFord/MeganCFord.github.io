@@ -13,7 +13,7 @@ gulp.task("clean", () => (
 
 //sass compiler. 
 gulp.task("sass:compile", () => { 
-  gulp.src("style.scss")
+  gulp.src("./scss/*")
     .pipe(sass().on("error", sass.logError))
     .pipe(gulp.dest("./css/"));
 });
