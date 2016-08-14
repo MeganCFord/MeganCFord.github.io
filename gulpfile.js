@@ -19,7 +19,7 @@ gulp.task("sass:compile", () => {
 });
 
 gulp.task("sass:watch", () => {
-  gulp.watch("style.scss", ["clean", "sass:compile"]);
+  gulp.watch("./scss/*", ["clean", "sass:compile"]);
 });
 
 gulp.task("sass:start",["clean", "sass:compile", "sass:watch"]);
