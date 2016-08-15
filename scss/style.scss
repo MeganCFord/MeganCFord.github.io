@@ -82,7 +82,8 @@ h2 {
 }
 
 .grid-img {
-  height: 60px;
+  height: 70px;
+  margin: 10px 0;
 }
 
 //project tab styling.
@@ -106,6 +107,11 @@ h2 {
   }
 
 }
+
+.tooltip.top, .tooltip.bottom {
+  font-family: $sans-font-family;
+}
+
 
 .nav-tabs {
   border-bottom: 2px solid $standard-font-color;
@@ -152,8 +158,24 @@ h2 {
     text-align: right;
   }
 
-  img {
+  .project-carousel {
     border: 2px solid $standard-font-color;
+
+    .carousel-caption {
+      background: white;
+      border: 2px solid $standard-font-color;
+      color: $standard-font-color;
+      font-family: $sans-font-family;
+      font-size: .8em;
+      padding: 5px;
+      text-shadow: none;
+    }
+    .carousel-control {
+      text-shadow: none;
+    }
+  }
+
+  img {
     margin: 10px auto;
     max-width: 100%;
     min-height: 300px;
