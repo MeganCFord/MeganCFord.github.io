@@ -7,8 +7,8 @@ $standard-font-color: #333;
 
 body {
   font-family: $sans-font-family;
-  line-height: 1.8;
   letter-spacing: 1px;
+  line-height: 1.8;
   position: relative;
 }
 
@@ -63,8 +63,9 @@ h2 {
 
 //text in the 'about me' section.
 .about-text {
+  font-family: georgia, serif;
   line-height: 2.2em;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   max-width: 50em;
   text-align: justify;
 }

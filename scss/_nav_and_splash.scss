@@ -3,13 +3,17 @@
   border-bottom: 2px solid $standard-font-color;
   padding-left: 15px;
   text-transform: uppercase;
+
+  .navbar-brand {
+    padding: 14px 15px 15px;
+  }
+
 }
 
 .navbar-brand {
   border: 2px solid $standard-font-color;
   color: $standard-font-color;
   margin: 5px;
-  padding: 12px 15px -2px;
 }
 
 .navbar-nav {
@@ -19,6 +23,8 @@
 }
 
 .navbar-right {
+  padding-top: 4px;
+
   .active {
     background-color: #EEE;
   }
@@ -51,8 +57,7 @@
 // background splash image.
 .splash {
   background-attachment: scroll;
-  background-image: url('../img/temp-splash.jpg');
-  background-position: center -60px;
+  background-position: center top;
   background-size: cover;
   height: 90vh;
   padding: 0;
