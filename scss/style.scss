@@ -109,6 +109,11 @@ h2 {
 
 .nav-tabs {
   border-bottom: 2px solid $standard-font-color;
+
+  li a:hover {
+    border-bottom: 0;
+    border-radius: 0;
+  }
 }
 
 // changes the color of the active page border on the projects tabs.
@@ -116,6 +121,7 @@ h2 {
   border: 2px solid $standard-font-color;
   border-bottom: 0 transparent;
   border-radius: 0;
+  color: $standard-font-color;
 }
 
 //project div styling.
