@@ -1,6 +1,6 @@
 
 // enable bootstrap scrollspy.
-$(document).ready(()=> {
+$(document).ready(function() {
   setUpAllTheStuff();
 });
 
@@ -20,7 +20,7 @@ function setUpAllTheStuff()  {
   //randomize splash images.
   const splashImages = ["asheville", "comicon", "dc", "giacometti", "ginormica", "moma", "panda", "picasso", "tomato"];
   const thisImg = splashImages[Math.floor(Math.random() * splashImages.length)];
-  setTimeout(function() {$(".splash").css({"background-image": `url(img/splash/${thisImg}.jpg)`});}, 1000);
+  $(".splash").css({"background-image": `url(img/splash/${thisImg}.jpg)`});
   
   //enable bootstrap scrollspy.
   $("body").scrollspy({target: "#collapsing-nav-options"});
