@@ -203,7 +203,7 @@ h2 {
 @media only screen
 and (max-device-width: 480px) {
   nav {
-    padding-top: 50px;
+    visibility: hidden;
   }
   .secondary-nav {
     ul {
