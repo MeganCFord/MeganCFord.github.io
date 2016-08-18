@@ -31,7 +31,7 @@ function setUpAllTheStuff()  {
   });
 
   //show navbar once secondary nav scrolls to it.
-  $(document).scroll(() => {
+  $(document).scroll(function(){
     const y = $(document).scrollTop();
     const t = $("#secondary-nav").offset().top;
     if (y > t) {
