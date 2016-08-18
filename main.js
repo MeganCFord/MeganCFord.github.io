@@ -5,11 +5,14 @@ $(document).ready(()=> {
 });
 
 
-$(window).load(() => {
+$(window).load(function(){
   setUpAllTheStuff();
 });
 
 $(document).on("pageinit", function() {
+  setUpAllTheStuff();
+});
+$(document).on("mobileinit", function() {
   setUpAllTheStuff();
 });
 

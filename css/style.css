@@ -63,7 +63,7 @@
     text-align: center; }
   .splash-content p {
     color: white;
-    font-family: "Libre Baskerville", serif;
+    font-family: "Libre Baskerville", "Georgia", serif;
     font-size: .7em;
     margin: 0 auto;
     text-align: center;
@@ -97,16 +97,17 @@ h2 {
 
 .tiny-italic {
   color: #333;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Libre Baskerville", "Georgia", serif;
   font-size: .8em;
   margin-top: 8px;
-  text-align: center;
-  text-transform: italic; }
+  text-align: center; }
   .tiny-italic p {
-    margin: 8px auto 45px; }
+    margin: 8px auto 45px;
+    text-transform: italic; }
   .tiny-italic a {
     color: #333;
-    text-decoration: none; }
+    text-decoration: none;
+    text-transform: italic; }
     .tiny-italic a:hover {
       text-decoration: underline; }
 
@@ -173,7 +174,7 @@ h2 {
   .proj-div a {
     color: #333;
     display: block;
-    font-family: "Libre Baskerville", serif;
+    font-family: "Libre Baskerville", "Georgia", serif;
     font-size: .8em;
     padding-top: 5px;
     text-align: right;
@@ -205,10 +206,10 @@ h2 {
 
 @media only screen and (max-device-width: 480px) {
   nav {
-    padding-top: 50px; }
+    display: none; }
   .secondary-nav {
     font-size: .62em; }
     .secondary-nav ul {
       float: none;
-      text-align: center;
-      padding-left: 0; } }
+      padding-left: 0;
+      text-align: center; } }

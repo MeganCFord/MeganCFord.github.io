@@ -1,5 +1,5 @@
 
-$serif-font-family: 'Libre Baskerville', serif;
+$serif-font-family: 'Libre Baskerville', 'Georgia', serif;
 $sans-font-family: 'Montserrat', sans-serif;
 $standard-font-color: #333;
 
@@ -45,15 +45,16 @@ h2 {
   font-size: .8em;
   margin-top: 8px;
   text-align: center;
-  text-transform: italic;
 
   p {
     margin: 8px auto 45px;
+    text-transform: italic;
   }
 
   a {
     color: $standard-font-color;
     text-decoration: none;
+    text-transform: italic;
 
     &:hover {
       text-decoration: underline;
@@ -172,6 +173,7 @@ h2 {
       padding: 5px;
       text-shadow: none;
     }
+
     .carousel-control {
       text-shadow: none;
     }
@@ -203,13 +205,14 @@ h2 {
 @media only screen
 and (max-device-width: 480px) {
   nav {
-    visibility: hidden;
+    display: none;
   }
+
   .secondary-nav {
     ul {
-     float: none;
-     text-align: center;
-     padding-left: 0;
+      float: none;
+      padding-left: 0;
+      text-align: center;
 
     }
     font-size: .62em;
