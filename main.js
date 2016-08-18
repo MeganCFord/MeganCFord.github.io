@@ -9,7 +9,7 @@ $(window).load(() => {
   setUpAllTheStuff();
 });
 
-$(document).on("mobileinit",() =>{
+$(document).on("pageinit", function() {
   setUpAllTheStuff();
 });
 
