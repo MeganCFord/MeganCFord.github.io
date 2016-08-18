@@ -4,7 +4,6 @@ $(document).ready(()=> {
   setUpAllTheStuff();
 });
 
-
 $(window).load(function(){
   setUpAllTheStuff();
 });
@@ -21,7 +20,7 @@ function setUpAllTheStuff()  {
   //randomize splash images.
   const splashImages = ["asheville", "comicon", "dc", "giacometti", "ginormica", "moma", "panda", "picasso", "tomato"];
   const thisImg = splashImages[Math.floor(Math.random() * splashImages.length)];
-  $(".splash").css({"background-image": `url(img/splash/${thisImg}.jpg)`});
+  setTimeout(function() {$(".splash").css({"background-image": `url(img/splash/${thisImg}.jpg)`});}, 1000);
   
   //enable bootstrap scrollspy.
   $("body").scrollspy({target: "#collapsing-nav-options"});
