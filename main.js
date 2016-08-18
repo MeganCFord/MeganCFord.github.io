@@ -26,4 +26,16 @@ $(document).ready(()=> {
     }
   });
 
+  $(document).on({
+    "touchmove": (e) => { 
+      const y = $(document).scrollTop();
+      const t = $("#secondary-nav").offset().top;
+      if (y > t) {
+        $(".navbar").fadeIn();
+      } else {
+        $(".navbar").fadeOut();
+      }
+    }
+  });
+
 });
