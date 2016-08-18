@@ -100,7 +100,8 @@ h2 {
   font-family: "Libre Baskerville", serif;
   font-size: .8em;
   margin-top: 8px;
-  text-align: center; }
+  text-align: center;
+  text-transform: italic; }
   .tiny-italic p {
     margin: 8px auto 45px; }
   .tiny-italic a {
@@ -175,7 +176,8 @@ h2 {
     font-family: "Libre Baskerville", serif;
     font-size: .8em;
     padding-top: 5px;
-    text-align: right; }
+    text-align: right;
+    text-transform: italic; }
   .proj-div .project-carousel {
     border: 2px solid #333; }
     .proj-div .project-carousel .carousel-caption {
@@ -191,7 +193,6 @@ h2 {
   .proj-div img {
     margin: 10px auto;
     max-width: 100%;
-    min-height: 300px;
     padding: 8px; }
 
 .contact-title {
@@ -201,3 +202,13 @@ h2 {
   margin-bottom: 25px; }
   .contact-buttons .col {
     text-align: center; }
+
+@media only screen and (max-device-width: 480px) {
+  nav {
+    padding-top: 50px; }
+  .secondary-nav {
+    font-size: .62em; }
+    .secondary-nav ul {
+      float: none;
+      text-align: center;
+      padding-left: 0; } }

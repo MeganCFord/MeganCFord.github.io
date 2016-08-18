@@ -45,6 +45,7 @@ h2 {
   font-size: .8em;
   margin-top: 8px;
   text-align: center;
+  text-transform: italic;
 
   p {
     margin: 8px auto 45px;
@@ -156,6 +157,7 @@ h2 {
     font-size: .8em;
     padding-top: 5px;
     text-align: right;
+    text-transform: italic;
   }
 
   .project-carousel {
@@ -178,7 +180,7 @@ h2 {
   img {
     margin: 10px auto;
     max-width: 100%;
-    min-height: 300px;
+    // min-height: 300px;
     padding: 8px;
   }
 
@@ -197,3 +199,19 @@ h2 {
   }
 }
 
+// media query for a couple of things I want different on phones.
+@media only screen
+and (max-device-width: 480px) {
+  nav {
+    padding-top: 50px;
+  }
+  .secondary-nav {
+    ul {
+     float: none;
+     text-align: center;
+     padding-left: 0;
+
+    }
+    font-size: .62em;
+  }
+}
