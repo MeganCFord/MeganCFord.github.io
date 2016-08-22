@@ -1,0 +1,104 @@
+.navbar {
+  background-color: white;
+  border-bottom: 2px solid $standard-font-color;
+  padding-left: 15px;
+  text-transform: uppercase;
+
+  .navbar-brand {
+    padding: 14px 15px 15px;
+  }
+
+}
+
+.navbar-brand {
+  border: 2px solid $standard-font-color;
+  color: $standard-font-color;
+  margin: 5px;
+}
+
+.navbar-nav {
+  a {
+    color: $standard-font-color;
+  }
+}
+
+.navbar-right {
+  padding-top: 4px;
+
+  .active {
+    background-color: #EEE;
+  }
+
+  li {
+    text-align: right;
+  }
+}
+
+.secondary-nav {
+  margin-bottom: 85px;
+  margin-top: -65px;
+
+  ul {
+    float: right;
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      padding: 13.5px;
+
+      a {
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+// background splash image.
+.splash {
+  background-attachment: scroll;
+  background-position: center top;
+  background-size: cover;
+  height: 90vh;
+  padding: 0;
+}
+
+// splash heading stuff.
+
+.splash-content {
+  background: rgba(51, 51, 51, .42);
+  height: 100%;
+  text-align: center;
+
+  // "Megan ford"
+  h1 {
+    border-bottom: 2px solid white;
+    color: white;
+    display: inline-block;
+    left: 0;
+    letter-spacing: .4em;
+    margin: 25% auto 0;
+    padding: 0 25px 12px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  // "software developer"
+  h4 {
+    color: white;
+    letter-spacing: .2em;
+    margin: 0 auto;
+    padding: 8px 0 8px;
+    text-align: center;
+  }
+
+  // "Code is magic"
+  p {
+    color: white;
+    font-family: $serif-font-family;
+    font-size: .7em;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: italic;
+  }
+}

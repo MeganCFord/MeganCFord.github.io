@@ -1,0 +1,211 @@
+.navbar {
+  background-color: white;
+  border-bottom: 2px solid #333;
+  padding-left: 15px;
+  text-transform: uppercase; }
+  .navbar .navbar-brand {
+    padding: 14px 15px 15px; }
+
+.navbar-brand {
+  border: 2px solid #333;
+  color: #333;
+  margin: 5px; }
+
+.navbar-nav a {
+  color: #333; }
+
+.navbar-right {
+  padding-top: 4px; }
+  .navbar-right .active {
+    background-color: #EEE; }
+  .navbar-right li {
+    text-align: right; }
+
+.secondary-nav {
+  margin-bottom: 85px;
+  margin-top: -65px; }
+  .secondary-nav ul {
+    float: right;
+    list-style-type: none; }
+    .secondary-nav ul li {
+      display: inline-block;
+      padding: 13.5px; }
+      .secondary-nav ul li a {
+        color: white;
+        text-transform: uppercase; }
+
+.splash {
+  background-attachment: scroll;
+  background-position: center top;
+  background-size: cover;
+  height: 90vh;
+  padding: 0; }
+
+.splash-content {
+  background: rgba(51, 51, 51, 0.42);
+  height: 100%;
+  text-align: center; }
+  .splash-content h1 {
+    border-bottom: 2px solid white;
+    color: white;
+    display: inline-block;
+    left: 0;
+    letter-spacing: .4em;
+    margin: 25% auto 0;
+    padding: 0 25px 12px;
+    text-align: center;
+    text-transform: uppercase; }
+  .splash-content h4 {
+    color: white;
+    letter-spacing: .2em;
+    margin: 0 auto;
+    padding: 8px 0 8px;
+    text-align: center; }
+  .splash-content p {
+    color: white;
+    font-family: "Libre Baskerville", "Georgia", serif;
+    font-size: .7em;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: italic; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  position: relative; }
+
+.hideme {
+  display: none; }
+
+.standard-text {
+  color: #333;
+  font-family: "Montserrat", sans-serif; }
+
+.wrapper {
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 92%; }
+
+h2 {
+  border-bottom: 2px solid #333;
+  letter-spacing: .2em;
+  margin: 0 auto;
+  padding: 73px 8px 8px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.tiny-italic {
+  color: #333;
+  font-family: "Libre Baskerville", "Georgia", serif;
+  font-size: .8em;
+  margin-top: 8px;
+  text-align: center; }
+  .tiny-italic p {
+    margin: 8px auto 45px;
+    text-transform: italic; }
+  .tiny-italic a {
+    color: #333;
+    text-decoration: none;
+    text-transform: italic; }
+    .tiny-italic a:hover {
+      text-decoration: underline; }
+
+.about-text {
+  font-family: georgia, serif;
+  line-height: 2.2em;
+  margin: 0 auto 20px;
+  max-width: 50em;
+  text-align: justify; }
+
+.btn-default {
+  border: 0;
+  margin: 0; }
+
+.tech-col {
+  padding-bottom: 30px;
+  text-align: center; }
+
+.grid-img {
+  height: 70px;
+  margin: 10px 0; }
+
+.project-title {
+  border-bottom: 0;
+  margin-bottom: 8px; }
+
+.proj-tabs {
+  margin: 0 auto;
+  text-align: center; }
+  .proj-tabs li {
+    display: inline-block;
+    float: none; }
+  .proj-tabs a {
+    color: #333;
+    text-transform: uppercase; }
+
+.tooltip.top, .tooltip.bottom {
+  font-family: "Montserrat", sans-serif; }
+
+.nav-tabs {
+  border-bottom: 2px solid #333; }
+  .nav-tabs li a:hover {
+    border-bottom: 0;
+    border-radius: 0; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border: 2px solid #333;
+  border-bottom: 0 transparent;
+  border-radius: 0;
+  color: #333; }
+
+.proj-div {
+  margin: 0 auto;
+  min-height: 400px;
+  padding-top: 25px;
+  text-align: center; }
+  .proj-div h4 {
+    min-height: 20px;
+    text-align: center;
+    text-transform: uppercase; }
+  .proj-div p {
+    line-height: 2.2em;
+    text-align: justify; }
+  .proj-div a {
+    color: #333;
+    display: block;
+    padding-top: 5px; }
+  .proj-div .project-carousel {
+    border: 2px solid #333; }
+    .proj-div .project-carousel .carousel-caption {
+      background: white;
+      border: 2px solid #333;
+      color: #333;
+      font-family: "Montserrat", sans-serif;
+      font-size: .8em;
+      padding: 5px;
+      text-shadow: none; }
+    .proj-div .project-carousel .carousel-control {
+      text-shadow: none; }
+  .proj-div img {
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 8px; }
+
+.contact-title {
+  margin-top: 50px; }
+
+.contact-buttons {
+  margin-bottom: 25px; }
+  .contact-buttons .col {
+    text-align: center; }
+
+@media only screen and (max-device-width: 480px) {
+  nav {
+    display: none; }
+  .secondary-nav {
+    font-size: .62em; }
+    .secondary-nav ul {
+      float: none;
+      padding-left: 0;
+      text-align: center; } }

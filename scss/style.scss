@@ -1,0 +1,219 @@
+
+$serif-font-family: 'Libre Baskerville', 'Georgia', serif;
+$sans-font-family: 'Montserrat', sans-serif;
+$standard-font-color: #333;
+
+@import 'nav_and_splash';
+
+body {
+  font-family: $sans-font-family;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  position: relative;
+}
+
+.hideme {
+  display: none;
+}
+
+.standard-text {
+  color: $standard-font-color;
+  font-family: $sans-font-family;
+}
+
+//all content from 'about' to 'contact' is in this div.
+.wrapper {
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 92%;
+
+}
+
+// the titles for the page are all h2s. 
+h2 {
+  border-bottom: 2px solid $standard-font-color;
+  letter-spacing: .2em;
+  margin: 0 auto;
+  padding: 73px 8px 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tiny-italic {
+  color: $standard-font-color;
+  font-family: $serif-font-family;
+  font-size: .8em;
+  margin-top: 8px;
+  text-align: center;
+
+  p {
+    margin: 8px auto 45px;
+    text-transform: italic;
+  }
+
+  a {
+    color: $standard-font-color;
+    text-decoration: none;
+    text-transform: italic;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+//text in the 'about me' section.
+.about-text {
+  font-family: georgia, serif;
+  line-height: 2.2em;
+  margin: 0 auto 20px;
+  max-width: 50em;
+  text-align: justify;
+}
+
+//styling for the grid of 'technologies'. Mess with the tooltips here.
+.btn-default {
+  border: 0;
+  margin: 0;
+}
+
+.tech-col {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.grid-img {
+  height: 70px;
+  margin: 10px 0;
+}
+
+//project tab styling.
+.project-title {
+  border-bottom: 0;
+  margin-bottom: 8px;
+}
+
+.proj-tabs {
+  margin: 0 auto;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    float: none;
+  }
+
+  a {
+    color: $standard-font-color;
+    text-transform: uppercase;
+  }
+
+}
+
+.tooltip.top, .tooltip.bottom {
+  font-family: $sans-font-family;
+}
+
+
+.nav-tabs {
+  border-bottom: 2px solid $standard-font-color;
+
+  li a:hover {
+    border-bottom: 0;
+    border-radius: 0;
+  }
+}
+
+// changes the color of the active page border on the projects tabs.
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  border: 2px solid $standard-font-color;
+  border-bottom: 0 transparent;
+  border-radius: 0;
+  color: $standard-font-color;
+}
+
+//project div styling.
+.proj-div {
+  margin: 0 auto;
+  min-height: 400px;
+  padding-top: 25px;
+  text-align: center;
+
+  h4 {
+    min-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    a {}
+  }
+
+  p {
+    line-height: 2.2em;
+    text-align: justify;
+  }
+
+  a {
+    color: $standard-font-color;
+    display: block;
+    // font-family: $serif-font-family;
+    // font-size: .8em;
+    padding-top: 5px;
+    // text-align: right;
+    // text-transform: italic;
+  }
+
+  .project-carousel {
+    border: 2px solid $standard-font-color;
+
+    .carousel-caption {
+      background: white;
+      border: 2px solid $standard-font-color;
+      color: $standard-font-color;
+      font-family: $sans-font-family;
+      font-size: .8em;
+      padding: 5px;
+      text-shadow: none;
+    }
+
+    .carousel-control {
+      text-shadow: none;
+    }
+  }
+
+  img {
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 8px;
+  }
+
+}
+
+//
+.contact-title {
+  margin-top: 50px;
+}
+
+.contact-buttons {
+  margin-bottom: 25px;
+
+  .col {
+    text-align: center;
+  }
+}
+
+// media query for a couple of things I want different on phones.
+@media only screen
+and (max-device-width: 480px) {
+  nav {
+    display: none;
+  }
+
+  .secondary-nav {
+    ul {
+      float: none;
+      padding-left: 0;
+      text-align: center;
+
+    }
+    font-size: .62em;
+  }
+}
