@@ -174,11 +174,7 @@ h2 {
   .proj-div a {
     color: #333;
     display: block;
-    font-family: "Libre Baskerville", "Georgia", serif;
-    font-size: .8em;
-    padding-top: 5px;
-    text-align: right;
-    text-transform: italic; }
+    padding-top: 5px; }
   .proj-div .project-carousel {
     border: 2px solid #333; }
     .proj-div .project-carousel .carousel-caption {

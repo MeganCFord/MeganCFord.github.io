@@ -136,7 +136,6 @@ h2 {
 .proj-div {
   margin: 0 auto;
   min-height: 400px;
-  // border-top: 2px solid $standard-font-color;
   padding-top: 25px;
   text-align: center;
 
@@ -144,6 +143,7 @@ h2 {
     min-height: 20px;
     text-align: center;
     text-transform: uppercase;
+    a {}
   }
 
   p {
@@ -154,11 +154,11 @@ h2 {
   a {
     color: $standard-font-color;
     display: block;
-    font-family: $serif-font-family;
-    font-size: .8em;
+    // font-family: $serif-font-family;
+    // font-size: .8em;
     padding-top: 5px;
-    text-align: right;
-    text-transform: italic;
+    // text-align: right;
+    // text-transform: italic;
   }
 
   .project-carousel {
@@ -182,7 +182,6 @@ h2 {
   img {
     margin: 10px auto;
     max-width: 100%;
-    // min-height: 300px;
     padding: 8px;
   }
 
