@@ -35,7 +35,7 @@
       <div class="splash-content">
         <h1>Megan Ford</h1>
         <h4>Software Developer</h4>
-        <p data-toggle="tooltip" data-placement="bottom" title="And cussing is funny">Code Is Magic</p>
+        <p>Code Is Incredible</p>
       </div>
     </div>
 
@@ -52,11 +52,18 @@
 
     <div id="about">
       <h2>About</h2>
-      <div class="tiny-italic"><p>My Story</p></div>
-      <p class="about-text">I’m an independent thinker and self-educator, and have always heavily supplemented my life and learning through technology, so The flow and construction of virtual information, especially in databases, has captured my heart at Nashville Software School. My bachelor's degree is in ceramics, so I love combining my creative energy with my crush on the Internet by working with computers to build virtual structures that are both aesthetic and functional.</p>
-      <p class="about-text">My background is in small-business division directorship and project management, so I am empowered to organize, document with a team in mind, automate when possible, and time-manage to meet multiple deadlines, and I am deeply proud to be part of a like-minded programming community in Nashville.
+      <div class="text-center">
+        <img style="height: 140px; border: 1px solid black; margin: 30px" src="img/profile-pic.jpg">
+      </div>
+      <p class="about-text">I'm relatively new to the world of software development, but I am a huge nerd- which I define as someone who is unselfconsciously passionate about something outside of herself. I am honored to be a member of Nashville Software School's <span><a style="color: black; text-decoration: underline" href="http://cohort13.com/#/">Cohort 13</a></span> and the recipient of their Catalyst Developer award, and I am deeply proud to be a part of the developer community in Nashville, Tennessee.
       </p>
-      <div class="tiny-italic"><a target="_blank" href="img/Aug_2016_resume.pdf">Resume PDF</a></div>
+      <p class="about-text">
+      I'm a fast thinker, fast typer, and fast learner, and I have always heavily supplemented my life and learning through technology. My years as a small-business division director and project manager taught me to value efficiency and to independently organize multiple tasks. I am empowered to organize, document with a team in mind, automate when possible, and time-manage to meet multiple deadlines. My bachelor's degree is in ceramics, so I love combining my creative energy with my crush on the Internet by working with computers to build virtual structures that are both aesthetic and functional.
+      </p>
+      <p class="about-text">
+      The flow and construction of virtual information, especially in databases, captured my heart at Nashville Software School. Nashville Software School has taught me the deep joy and worth of working to solve problems as a team, and the incredible value of humility and asking a ton, like so many, really a lot of questions. My brain is a perfect fit for solving problems through software, but more importantly- I fit in perfectly with the generous, gleeful, incredibly smart and creative nerds in code. 
+      </p>
+      <div class="tiny-italic"><a target="_blank" href="img/MeganFordResume.pdf">Resume PDF</a></div>
     </div> <!--/about -->
 
     <div id="technologies">
@@ -109,6 +116,9 @@
           <div class="col col-xs-4 col-md-3 tech-col" data-toggle="tooltip" data-placement="top" title="Sql">
             <img class="grid-img" src="img/tech/tech-sql.png" alt="Sql">
           </div>
+           <div class="col col-xs-4 col-md-3 tech-col" data-toggle="tooltip" data-placement="top" title="Sql">
+            <img class="grid-img" src="img/tech/tech-drf.png" alt="Django Rest Framework">
+          </div>
         </div>
       </div> <!-- /container-fluid -->
     </div> <!-- /technologies -->
@@ -122,7 +132,7 @@
         <li role="presentation" class="active"><a href="#proj-one" aria-controls="proj-one" role="tab" data-toggle="tab">KPCOFGS</a></li>
         <li role="presentation"><a href="#proj-two" aria-controls="proj-two" role="tab" data-toggle="tab">Food Fight</a></li>
         <li role="presentation"><a href="#proj-three" aria-controls="proj-three" role="tab" data-toggle="tab">aMeowZon</a></li>
-       <!--  <li role="presentation"><a href="#proj-four" aria-controls="proj-four" role="tab" data-toggle="tab">Final Capstone</a></li> -->
+        <li role="presentation"><a href="#proj-four" aria-controls="proj-four" role="tab" data-toggle="tab">Closet Skeletons</a></li>
       </ul>
 
   <!-- Tab panes -->
@@ -132,10 +142,8 @@
           <div class="row">
             <div class="col col-xs-12 col-md-6">
               <h4><a href="https://github.com/MeganCFord/KPCOFGS" target="_blank">Kingdom Phylum Class Order Family Genus Species</a></h4>
-              <p class="about-text">Individual capstone project from July 2016: 3 week timeline. Fully traversable animal identification app displays information at every taxa level. Constructs pages from multiple API's and builds a cumulative, persistent user-answer object using CRUD, routing and file upload. Technologies: AngularJS, UIBootstrap, SCSS, Firebase.</p>
-              <p class="about-text">I made this app because I love learning about animals, and I felt like a fully traversable list of animal taxa, with information about why the taxa were divided the way they were, was missing from the internet. I used the COL and EOL API's, which pull from over 100 other API's (mostly collegiate). They made the traversability of the taxa tree easy to work with, but I also researched and wrote hundreds of taxa questions in my Firebase database, to help describe the reasoning behind the taxa divisions- and in the process discovered that the sheer quantity of taxa is overwhelming, and the divides between them are often very small and hotly contested!</p>
-              <p class="about-text">Deployed site currently under construction- it's going to need a back-end structure, which is coming soon.</p>
-              <!-- <a href="#">link to deployed site</a> -->
+              <p class="about-text">Individual capstone project from July 2016: 3 week timeline, Converted to full-stack app September 2016. Fully traversable identification app displays animal information at every taxa level. Constructs page data from multiple API's and builds a cumulative, persistent user-answer object using CRUD, routing and file upload. Technologies: Python, Django, AngularJS, UIBootstrap, SCSS, Firebase.</p>
+              <p class="about-text"> I used Catalog and Encyclopedia of Life API's, which pull from over 100 other API's (mostly collegiate). They made the traversability of the taxa tree easy to work with, but also wildly diverse, and the COL info I need is deprecated, so I converted this app to full-stack to check the data, make the app more deployable, and to auto-migrate the data I needed to Firebase. I also researched and wrote hundreds of taxa questions in my Firebase database, to help describe the reasoning behind the taxa divisions.</p>
             </div>
             <div class="col col-xs-12 col-md-6">
               <div id="kpcofgs-carousel" class="carousel slide project-carousel">
@@ -166,6 +174,7 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
+              <a href="http://meganfordcodes.com/animals" target="_blank">link to deployed site- best viewed at 50% size</a>
               <a href="https://github.com/MeganCFord/KPCOFGS" target="_blank">Link to Code</a>
             </div>
           </div>
@@ -304,6 +313,48 @@
           </div>
         </div>
       </div> 
+      <div role="tabpanel" class="tab-pane proj-div" id="proj-four">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col col-xs-12 col-md-6">
+              <h4><a href="https://github.com/MeganCFord/ClosetSkels" target="_blank">Closet Skeletons</a></h4>
+              <p class="about-text">Final Capstone Project- 7 day timeline September 2016. Built to display all I have learned through 6 months of full-time developer bootcamp at Nashville Software School. Full-stack application written in Python/Django and Javascript/Angular/Bootstrap. Fully custom RESTful API back-end, Firebase image upload, Django user authentication. Search for costumes by what you have in your closet or what you'd like to wear. Heart and tag costumes other people have built, save them to edit for your own, or build an idea from scratch.</p>
+              <p class="about-text">This app, although it's still under construction, has given me a tantalizing taste of the work of a full stack developer. Being able to adjust the values my database returns to fit the needs of my client app was deeply empowering and immensely satisfying. I also finally learned what cookies are, and tried my hand at nested serialization, and I'm so thankful to my previous experience in quickly marking up a bootstrap front-end so I could really focus on the functionality of this app.</p>
+            </div>
+            <div class="col col-xs-12 col-md-6">
+              <div id="skels-carousel" class="carousel slide project-carousel">
+               
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="img/project/skels/skels-screenshot-1.jpeg" alt="screenshot-1">
+                    <div class="carousel-caption">
+                      <span>ERD</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/project/skels/skels-screenshot-2.jpg" alt="screenshot-2">
+                    <div class="carousel-caption">
+                      <span>View Diagram</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#skels-carousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#skels-carousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>  
+              <a href="https://github.com/MeganCFord/ClosetSkels" target="_blank">Link To Code</a>         
+            </div>
+          </div>
+        </div> 
+      </div>
     </div>
 
     <div id="contact" class="contact-title">
